@@ -1,0 +1,16 @@
+.footer_div{
+    margin-top: 100px;
+    background-color: #e9cdde;
+    height: 150px;
+    padding: 50px;
+}
+
+.contact > a > img{
+    height: 30px;
+    margin-top: 5px;
+}
+
+.credit {
+    margin-top: 30px;
+    font-size: 10px;
+}

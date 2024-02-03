@@ -1,0 +1,24 @@
+.intro_div{
+    background-color: #d3e1ee;
+    text-align: center;
+    padding: 100px;
+    height: 300px;
+    border-bottom-right-radius: 50%;
+    border-bottom-left-radius: 50%;
+    border-bottom: solid 30px #e9cdde;
+}
+
+.intro_div > p {
+    width: 500px;
+    align-items: center;
+    margin: auto;
+}
+
+.more_info_p{
+    margin-top: 100px;
+    text-align: center;
+}
+
+.main_back{
+    background-color: #f3f6f4;
+}

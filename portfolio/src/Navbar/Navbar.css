@@ -1,0 +1,23 @@
+.main_nav{
+    display: flex;
+    background-color:  #d3e1ee;
+    width: 100%;
+}
+.nav_link_head {
+    text-decoration: none;
+    color: black;
+    margin-left: 10px;
+    margin-right: 20px;
+    text-align: center;
+    display: flex;
+}
+
+.nav_link {
+    text-decoration: none;
+    color: black;
+    margin-left: 10px;
+    margin-right: 20px;
+    text-align: center;
+    line-height: 70px;
+}
+

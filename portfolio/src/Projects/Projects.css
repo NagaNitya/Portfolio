@@ -1,0 +1,54 @@
+.back {
+    background-color: #f3f6f4;
+    align-items: center;
+}
+
+.intro1 {
+    height: 100px;
+    padding: 100px;
+    margin-top: 0%;
+    background-color: #d3e1ee;
+    text-align: center;
+}
+
+.border1 {
+    margin-top: 0%;
+    width: 100%;
+    margin-bottom: 75px;
+}
+
+.main_body {
+    align-content: center;
+    margin: auto;
+}
+
+.projects_div {
+    align-items: center;
+    margin: auto;
+    width: 95%;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+}
+
+.item {
+    padding: 10px;
+    align-content: center;
+    margin: auto;
+    text-align: center;
+    border-right: 2px solid #cfdbe7;
+}
+
+.projects_div :last-child {
+    border-right: none;
+}
+
+.item > img {
+    width: 150px;
+    height: auto;
+    align-self: center;
+}
+
+.after {
+    margin-top: 100px;
+    text-align: center;
+}
