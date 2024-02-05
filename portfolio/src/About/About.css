@@ -28,6 +28,17 @@
     text-align: center;
     padding: 50px;
     margin-top: 0px;
+    align-content: center;
+}
+
+.locdiv {
+    text-align: center;
+    align-items: center;
+    display: inline-flex;
+}
+
+.locdiv > img {
+    height: 30px;
 }
 
 .my_skills_div {
@@ -44,8 +55,9 @@
     margin: auto;
     width: 95%;
     display:grid;
-    grid-template-columns: auto auto auto auto auto auto auto;
+    grid-template-columns: auto auto auto auto;
     column-gap: 20px;
+    row-gap: 20px;
 }
 .skill {
     align-content: center;

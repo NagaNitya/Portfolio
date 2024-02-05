@@ -8,6 +8,8 @@ import pythonlogo from '../Assets/pythonlogo.png'
 import reactlogo from '../Assets/reactlogo.png'
 import border2 from '../Assets/border2.png'
 import caticon from '../Assets/caticon.png'
+import locicon from '../Assets/locicon.png'
+import ailogo from '../Assets/ailogo.png'
 import './About.css'
 
 const Aboutinfo =() => {
@@ -22,6 +24,11 @@ const Aboutinfo =() => {
                 <h3>Introduction</h3>
                 <p>My name is Nitya Penumerthy. I am currently pursuing a Bachelor of Technology, majoring in Computer Science with a specialisation in AI and ML, at Geethanjali College of Engineering and Technology. The reason for my choosing this stream, is because of my interest in emerging areas of technology, especially the field of Artificial Intelligence.</p>
                 <p>I have a genuine enthusiasm for coding and the process of creating with code. Continually pushing myself beyond my comfort zone, I actively seek to learn new problem-solving techniques, programming languages, and various other skills. I thrive on practical learning experiences and, as a result, engage in projects within my areas of interest to deepen my understanding of applicable skills. Regularly participating in hackathons, events, and internships is part of my approach to acquiring new skills and enhancing existing ones.</p>
+                <div className='locdiv'>
+                    <img src={locicon} alt="location" />
+                    <p>Hyderabad, India</p>
+                </div>
+               
             </div>
             <div className='my_skills_div'>
                 <h3>My Skills</h3><br />
@@ -53,6 +60,10 @@ const Aboutinfo =() => {
                     <div className='skill'>
                         <img src={reactlogo} alt="React" className='skill' />
                         <p>ReactJS</p>
+                    </div>
+                    <div className='skill'>
+                        <img src={ailogo} alt="ML" />
+                        <p>Basics of ML</p>
                     </div>
                 </div><br /><br />
                 <p>Check out my coding credentials in <a target="_blank" href="https://leetcode.com/NagaNitya/" rel="noreferrer">LeetCode</a> and <a target="_blank" href="https://www.hackerrank.com/profile/NagaNitya" rel="noreferrer">HackerRank</a></p>
