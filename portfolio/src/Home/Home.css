@@ -6,6 +6,7 @@
     border-bottom-right-radius: 50%;
     border-bottom-left-radius: 50%;
     border-bottom: solid 40px #e9cdde;
+    overflow-x: hidden;
 }
 
 .intro_div > p {
