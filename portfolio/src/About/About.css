@@ -65,15 +65,35 @@
     text-align: center;
 }
 
-.lang_div {
-    padding: 50px;
+.edu_div {
     text-align: center;
-    margin: auto;
+    padding: 50px;
     width: 80%;
-    border-bottom: solid 2px #cfdbe7;
+    margin: auto;
+}
+
+.ed_table, th, td{
+    border: solid 1px grey;
+    border-collapse: collapse;
+    padding: 20px;
+}
+
+th{
+    background-color: #e7d9e0;
 }
 
 .hobbies {
     padding: 50px;
     text-align: center;
+}
+
+.resume_button{
+    display: flex;
+    background-color: #cfdbe7;
+    border: #cfdbe7;
+    line-height: 0px;
+    padding: 20px;
+    border-radius: 15px;
+    margin: auto;
+    cursor: pointer;
 }

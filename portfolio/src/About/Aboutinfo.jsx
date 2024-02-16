@@ -10,9 +10,21 @@ import border2 from '../Assets/border2.png'
 import caticon from '../Assets/caticon.png'
 import locicon from '../Assets/locicon.png'
 import ailogo from '../Assets/ailogo.png'
+import downloadicon from '../Assets/downloadicon.png'
 import './About.css'
 
 const Aboutinfo =() => {
+    
+	const pdfDownload = () => {
+		const pdfUrl = "Resume.pdf";
+		const link = document.createElement("a");
+		link.href = pdfUrl;
+		link.download = "Resume.pdf"; // specify the filename
+		document.body.appendChild(link);
+		link.click();
+		document.body.removeChild(link);
+	};
+
     return (
         <div className='main_body'>
             <div className='intro2'>
@@ -68,10 +80,30 @@ const Aboutinfo =() => {
                 </div><br /><br />
                 <p>Check out my coding credentials in <a target="_blank" href="https://leetcode.com/NagaNitya/" rel="noreferrer">LeetCode</a> and <a target="_blank" href="https://www.hackerrank.com/profile/NagaNitya" rel="noreferrer">HackerRank</a></p>
             </div>
-            <div className='lang_div'>
-                <h3>Languages Known</h3>
-                <p>English, French, Telugu</p>
+            <div className='edu_div'>
+                <h3>Education</h3>
+                <table className='ed_table' align='center'>
+                    <tr>
+                        <th>Education</th>
+                        <th>Institution</th>
+                        <th>Percentage/CGPA</th>
+                    </tr>
+                    <tr>
+                        <td>B.Tech - CSE/AIML</td>
+                        <td>Geethanjali College of Engineering and Technology, Hyderabad</td>
+                        <td>8 CGPA</td>
+                    </tr>
+                    <tr>
+                        <td>Senior Secondary - MPC</td>
+                        <td>DAV Public School, Hyderabad</td>
+                        <td>95%</td>
+                    </tr>
+                </table>
             </div>
+            <button onClick={pdfDownload} className='resume_button'>
+                    <img src={downloadicon} alt="download" /> &nbsp;&nbsp;
+                     <h3>Download Resume</h3>
+                </button>
             <div className='hobbies'>
                 <h3>My Hobbies</h3>
                 <p>I am an avid reader, and enjoy books of the fantasy, mystery and horror genres. My favourite book series is <i>LOTR</i>. I have recently ventured into the classics as well, and find <i>Dracula</i> to be a wonderful read.</p>
