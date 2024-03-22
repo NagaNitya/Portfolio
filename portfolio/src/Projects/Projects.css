@@ -38,7 +38,7 @@
     border-right: 2px solid #cfdbe7;
 }
 
-.projects_div :last-child {
+.projects_div :nth-child(3n){
     border-right: none;
 }
 
