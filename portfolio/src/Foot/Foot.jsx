@@ -38,7 +38,8 @@ const Foot = () => {
                 <a target="_blank" href="https://icons8.com/icon/121371/cat" rel="noreferrer">Cat</a>,&nbsp;
                 <a target="_blank" href="https://icons8.com/icon/3723/location" rel="noreferrer">Location</a>&nbsp;
                 <a target="_blank" href="https://icons8.com/icon/61864/artificial-intelligence" rel="noreferrer">Ai</a>,&nbsp;
-                <a target="_blank" href="https://icons8.com/icon/83159/download" rel="noreferrer">Download</a>&nbsp;
+                <a target="_blank" href="https://icons8.com/icon/83159/download" rel="noreferrer">Download</a>,&nbsp;
+                <a target="_blank" href="https://icons8.com/icon/50205/city" rel="noreferrer">City</a>&nbsp;
                 icons by <a target="_blank" href="https://icons8.com" rel="noreferrer">Icons8</a><br />
             </div>
         </div>

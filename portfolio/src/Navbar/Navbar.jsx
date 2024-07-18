@@ -9,6 +9,7 @@ const Navbar = () => {
             </Link>           
             <Link to={'/projects'} className='nav_link'>Projects</Link>
             <Link to={'/about'} className='nav_link'>About</Link>
+            {/* <Link to={'/gallery'} className='nav_link'>Gallery</Link> */}
         </div>
         
     )

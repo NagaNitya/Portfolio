@@ -5,6 +5,7 @@ import IIITlogo from '../Assets/IIITlogo.png'
 import HMSlogo from '../Assets/HMSlogo.jpeg'
 import border1 from '../Assets/border1.png'
 import graphlogo from '../Assets/graphlogo.png'
+import citylogo from '../Assets/citylogo.png'
 import './Projects.css'
 
 const Projectlist = () => {
@@ -40,6 +41,11 @@ const Projectlist = () => {
                     <img src={graphlogo} alt="IIIT Hyd logo" />
                     <h3>Companies Data Visualisation</h3>
                     <p>A collection of charts based on the Companies dataset. Made using Plotly and Streamlit modules of Python. Find the deployment of this app <a href="https://companies-data-visualisations.streamlit.app/" target='_blank' rel="noreferrer">here</a>.</p>
+                </div>
+                <div className='item'>
+                    <img src={citylogo} alt="cityscape" />
+                    <h3>ARUSGD</h3>
+                    <p>Accomodation Recommendation System using Geolocation Data, uses unsupervised machine learning techniques to classify areas as good, average or bad for rent. Find the deployment of this app <a href="https://accomodationbasedongeolocation.streamlit.app/" target='_blank' rel="noreferrer">here</a>.</p>
                 </div>
             </div>
             <p className='after'>Source code for all the projects may be found in my <a target="_blank" href="https://github.com/NagaNitya" rel="noreferrer">GitHub</a></p>

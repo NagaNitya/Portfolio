@@ -106,8 +106,7 @@ const Aboutinfo =() => {
                 </button>
             <div className='hobbies'>
                 <h3>My Hobbies</h3>
-                <p>I am an avid reader, and enjoy books of the fantasy, mystery and horror genres. My favourite book series is <i>LOTR</i>. I have recently ventured into the classics as well, and find <i>Dracula</i> to be a wonderful read.</p>
-                <p>I also enjoy drawing and painting, especially in watercolours. Check out my <a target="_blank" href="https://www.deviantart.com/nityasri" rel="noreferrer">Deviantart</a></p><br />
+                <p>I am an avid reader, and enjoy books of the fantasy, mystery and horror genres. My favourite book series is <i>LOTR</i>. I have recently ventured into the classics as well, and find <i>Dracula</i> to be a wonderful read. I also enjoy drawing and painting, especially in watercolours.</p><br />
                 <img src={caticon} alt="cat" />
             </div>
         </div>
