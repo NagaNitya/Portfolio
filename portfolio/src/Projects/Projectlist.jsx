@@ -35,7 +35,7 @@ const Projectlist = () => {
                 <div className='item'>
                     <img src={IIITlogo} alt="IIIT Hyd logo" />
                     <h3>ML Project Series</h3>
-                    <p>A series of mini projects, done as per an ongoing course on the Foundations of Modern Machine Learning, at IIIT Hyderabad.Implement various libraries in Python.</p>
+                    <p>A series of mini projects, done as per a course on the Foundations of Modern Machine Learning, at IIIT Hyderabad. Implements various libraries in Python.</p>
                 </div>
                 <div className='item'>
                     <img src={graphlogo} alt="IIIT Hyd logo" />
@@ -48,7 +48,7 @@ const Projectlist = () => {
                     <p>Accomodation Recommendation System using Geolocation Data, uses unsupervised machine learning techniques to classify areas as good, average or bad for rent. Find the deployment of this app <a href="https://accomodationbasedongeolocation.streamlit.app/" target='_blank' rel="noreferrer">here</a>.</p>
                 </div>
             </div>
-            <p className='after'>Source code for all the projects may be found in my <a target="_blank" href="https://github.com/NagaNitya" rel="noreferrer">GitHub</a></p>
+            <p className='after'>Source code for all the projects may be found on my <a target="_blank" href="https://github.com/NagaNitya" rel="noreferrer">GitHub</a></p>
         </div>
     )
 }

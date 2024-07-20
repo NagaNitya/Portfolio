@@ -1,0 +1,39 @@
+.back {
+    background-color: #f3f6f4;
+    align-items: center;
+}
+
+.main_body {
+    align-content: center;
+    margin: auto;
+}
+
+.intro1 {
+    height: 150px;
+    padding: 100px;
+    margin-top: 0%;
+    background-color: #d3e1ee;
+    text-align: center;
+}
+
+.border3 {
+    margin-top: 0%;
+    width: 100%;
+    margin-bottom: 75px;
+}
+
+.bodydiv {
+    align-content: center;
+    margin: auto;
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+.imgdiv {
+    max-height: 300px;
+    width: auto;
+    align-self: center;
+    margin: 10px;
+}

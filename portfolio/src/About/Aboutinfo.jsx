@@ -91,12 +91,17 @@ const Aboutinfo =() => {
                     <tr>
                         <td>B.Tech - CSE/AIML</td>
                         <td>Geethanjali College of Engineering and Technology, Hyderabad</td>
-                        <td>8 CGPA</td>
+                        <td>8.16 CGPA</td>
                     </tr>
                     <tr>
                         <td>Senior Secondary - MPC</td>
                         <td>DAV Public School, Hyderabad</td>
                         <td>95%</td>
+                    </tr>
+                    <tr>
+                        <td>Secondary</td>
+                        <td>DAV Public School, Hyderabad</td>
+                        <td>92.4%</td>
                     </tr>
                 </table>
             </div>
