@@ -44,7 +44,7 @@ const Projectlist = () => {
                 </div>
                 <div className='item'>
                     <img src={citylogo} alt="cityscape" />
-                    <h3>ARUSGD</h3>
+                    <h3>ARSUGD</h3>
                     <p>Accomodation Recommendation System using Geolocation Data, uses unsupervised machine learning techniques to classify areas as good, average or bad for rent. Find the deployment of this app <a href="https://accomodationbasedongeolocation.streamlit.app/" target='_blank' rel="noreferrer">here</a>.</p>
                 </div>
             </div>

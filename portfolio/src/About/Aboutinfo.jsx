@@ -91,7 +91,7 @@ const Aboutinfo =() => {
                     <tr>
                         <td>B.Tech - CSE/AIML</td>
                         <td>Geethanjali College of Engineering and Technology, Hyderabad</td>
-                        <td>8.16 CGPA</td>
+                        <td>8.18 CGPA</td>
                     </tr>
                     <tr>
                         <td>Senior Secondary - MPC</td>

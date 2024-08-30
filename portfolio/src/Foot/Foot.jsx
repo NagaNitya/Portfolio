@@ -1,5 +1,4 @@
 import React from 'react'
-import githublogo from '../Assets/githublogo.png'
 import linkedinlogo from '../Assets/linkedinlogo.png'
 import emaillogo from '../Assets/emaillogo.png'
 import './Foot.css'
@@ -11,9 +10,6 @@ const Foot = () => {
             <div className='foot_dets'>
                 <div className='contact'>
                     <h3>Contact me on:</h3>
-                    <a target="_blank" href="https://github.com/NagaNitya" rel="noreferrer">
-                        <img src={githublogo} alt="github logo" />
-                    </a>&nbsp;&nbsp;
                     <a target="_blank" href="https://www.linkedin.com/in/nitya-penumerthy-1256b7274/" rel="noreferrer">
                         <img src={linkedinlogo} alt="linkedin logo" />
                     </a>&nbsp;&nbsp;
@@ -34,7 +30,6 @@ const Foot = () => {
                 <a target="_blank" href="https://icons8.com/icon/122637/react" rel="noreferrer">React</a>,&nbsp;
                 <a target="_blank" href="https://icons8.com/icon/124385/email-open" rel="noreferrer">Email Open</a>,&nbsp;
                 <a target="_blank" href="https://icons8.com/icon/8808/linkedin" rel="noreferrer">linkedin logo</a>,&nbsp;
-                <a target="_blank" href="https://icons8.com/icon/12599/github" rel="noreferrer">GitHub</a>,&nbsp;
                 <a target="_blank" href="https://icons8.com/icon/121371/cat" rel="noreferrer">Cat</a>,&nbsp;
                 <a target="_blank" href="https://icons8.com/icon/3723/location" rel="noreferrer">Location</a>&nbsp;
                 <a target="_blank" href="https://icons8.com/icon/61864/artificial-intelligence" rel="noreferrer">Ai</a>,&nbsp;
