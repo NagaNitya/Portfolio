@@ -1,4 +1,6 @@
-import React from 'react'
+import {React, useEffect} from 'react'
+import AOS from 'aos'
+import "aos/dist/aos.css";
 import clogo from '../Assets/clogo.png'
 import csslogo from '../Assets/csslogo.png'
 import htmllogo from '../Assets/htmllogo.png'
@@ -14,6 +16,10 @@ import downloadicon from '../Assets/downloadicon.png'
 import './About.css'
 
 const Aboutinfo =() => {
+
+    useEffect(() => {
+        AOS.init({duration: 2000}); 
+    }, []);
     
 	const pdfDownload = () => {
 		const pdfUrl = "Resume.pdf";
@@ -28,52 +34,52 @@ const Aboutinfo =() => {
     return (
         <div className='main_body'>
             <div className='intro2'>
-                <h2>About Me</h2><br /><br />
-                <p>A complete introduction to me, my skills, strengths and areas of interest.</p>
+                <h2 data-aos="fade-up">About Me</h2><br /><br />
+                <p data-aos="fade-up" data-aos-delay="200">A complete introduction to me, my skills, strengths and areas of interest.</p>
             </div>
             <img src={border2} alt="border" className='border2'/>
-            <div className='about_me_div'>
+            <div className='about_me_div' data-aos="fade-up">
                 <h3>Introduction</h3>
                 <p>My name is Nitya Penumerthy. I am currently pursuing a Bachelor of Technology, majoring in Computer Science with a specialisation in AI and ML, at Geethanjali College of Engineering and Technology. The reason for my choosing this stream, is because of my interest in emerging areas of technology, especially the field of Artificial Intelligence.</p>
                 <p>I have a genuine enthusiasm for coding and the process of creating with code. Continually pushing myself beyond my comfort zone, I actively seek to learn new problem-solving techniques, programming languages, and various other skills. I thrive on practical learning experiences and, as a result, engage in projects within my areas of interest to deepen my understanding of applicable skills. Regularly participating in hackathons, events, and internships is part of my approach to acquiring new skills and enhancing existing ones.</p>
-                <div className='locdiv'>
+                <div className='locdiv' data-aos="fade-up">
                     <img src={locicon} alt="location" />
                     <p>Hyderabad, India</p>
                 </div>
                
             </div>
-            <div className='my_skills_div'>
+            <div className='my_skills_div' data-aos="fade-up">
                 <h3>My Skills</h3><br />
-                <div className='skills'>
-                    <div className='skill'>
+                <div className='skills' data-aos="fade-up">
+                    <div className='skill' data-aos="fade-up" data-aos-delay="100">
                         <img src={clogo} alt="C" /><br />
                         <p>C language</p>
                     </div>
-                    <div className='skill'>
+                    <div className='skill' data-aos="fade-up" data-aos-delay="400">
                         <img src={csslogo} alt="CSS" />
                         <p>CSS</p>
                     </div>
-                    <div className='skill'>
+                    <div className='skill' data-aos="fade-up" data-aos-delay="700">
                         <img src={htmllogo} alt="HTML" />
                         <p>HTML</p>
                     </div>
-                    <div className='skill'>
+                    <div className='skill' data-aos="fade-up" data-aos-delay="1000">
                         <img src={javalogo} alt="Java" />
                         <p>Java</p>
                     </div>
-                    <div className='skill'>
+                    <div className='skill' data-aos="fade-up" data-aos-delay="1000">
                         <img src={mysqllogo} alt="MySQL" />
                         <p>MySQL</p>
                     </div>
-                    <div className='skill'>
+                    <div className='skill' data-aos="fade-up" data-aos-delay="1300">
                         <img src={pythonlogo} alt="Python" />
                         <p>Python</p>
                     </div>
-                    <div className='skill'>
+                    <div className='skill' data-aos="fade-up" data-aos-delay="1600">
                         <img src={reactlogo} alt="React" className='skill' />
                         <p>ReactJS</p>
                     </div>
-                    <div className='skill'>
+                    <div className='skill' data-aos="fade-up" data-aos-delay="1900">
                         <img src={ailogo} alt="ML" />
                         <p>Basics of ML</p>
                     </div>
@@ -105,14 +111,14 @@ const Aboutinfo =() => {
                     </tr>
                 </table>
             </div>
-            <button onClick={pdfDownload} className='resume_button'>
+            <button onClick={pdfDownload} className='resume_button' data-aos="fade-up">
                     <img src={downloadicon} alt="download" /> &nbsp;&nbsp;
                      <h3>Download Resume</h3>
                 </button>
-            <div className='hobbies'>
+            <div className='hobbies' data-aos="fade-up">
                 <h3>My Hobbies</h3>
                 <p>I am an avid reader, and enjoy books of the fantasy, mystery and horror genres. My favourite book series is <i>LOTR</i>. I have recently ventured into the classics as well, and find <i>Dracula</i> to be a wonderful read. I also enjoy drawing and painting, especially in watercolours.</p><br />
-                <img src={caticon} alt="cat" />
+                <img src={caticon} alt="cat" data-aos="fade-up" data-aos-delay="200"/>
             </div>
         </div>
     )
