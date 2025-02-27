@@ -4,14 +4,34 @@
     padding-left: 50px;
     overflow-x:hidden;
 }
+
 .nav_link_head {
     text-decoration: none;
     color: black;
     margin-left: 10px;
     margin-right: 20px;
     text-align: center;
-    display: flex;
+    display: flex; 
+    position: relative;
 }
+
+.nav_link_head:after {    
+    background: none repeat scroll 0 0 transparent;
+    bottom: 0;
+    content: "";
+    display: block;
+    height: 2px;
+    left: 50%;
+    position: absolute;
+    background: black;
+    transition: width 0.3s ease 0s, left 0.3s ease 0s;
+    width: 0;
+  }
+
+  .nav_link_head:hover:after { 
+    width: 100%; 
+    left: 0; 
+  }
 
 .nav_link {
     text-decoration: none;
@@ -20,5 +40,25 @@
     margin-right: 20px;
     text-align: center;
     line-height: 70px;
+    position: relative;
+    border-bottom: solid 2px transparent;
+    transition: border-bottom-color 0.5s; 
 }
 
+.nav_link:after {    
+    background: none repeat scroll 0 0 transparent;
+    bottom: 0;
+    content: "";
+    display: block;
+    height: 1px;
+    left: 50%;
+    position: absolute;
+    background: black;
+    transition: width 0.3s ease 0s, left 0.3s ease 0s;
+    width: 0;
+}
+
+.nav_link:hover:after { 
+    width: 100%; 
+    left: 0; 
+}
