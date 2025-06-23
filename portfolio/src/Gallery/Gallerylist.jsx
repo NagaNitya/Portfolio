@@ -10,6 +10,7 @@ import dtwpic from '../Assets/dtwpic.jpg'
 import smtpic from '../Assets/smtpic.jpg'
 import virpic from '../Assets/virpic.jpeg'
 import sympic from '../Assets/sympic.jpeg'
+import yogapic from '../Assets/yogapic.jpg'
 
 const Gallerylist = () => {
 
@@ -32,6 +33,7 @@ const Gallerylist = () => {
                 <img src={virpic} alt="Virtusa Engineering Equity hackathon" className='imgdiv' data-aos="fade-up"/>
                 <img src={sympic} alt="maths symposium certificate" className='imgdiv' data-aos="fade-up"/>
                 <img src={vaipic} alt="Vaisheshika model future city" className='imgdiv' data-aos="fade-up"/>
+                <img src={yogapic} alt="Yoga day 2025 certificate of participation" className='imgdiv' data-aos="fade-up"/>
                 <img src={dtwpic} alt="Design Thinking Workshop" className='imgdiv' data-aos="fade-up"/>
             </div>
 
