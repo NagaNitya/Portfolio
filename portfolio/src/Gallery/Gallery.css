@@ -24,16 +24,51 @@
 
 .bodydiv {
     align-content: center;
+    align-items: center;
     margin: auto;
     justify-content: center;
     display: flex;
-    flex-wrap: wrap;
-    
+    flex-wrap: wrap;  
 }
 
-.imgdiv {
-    max-height: 300px;
+.itemdiv{  
+    height: 300px;
     width: auto;
     align-self: center;
     margin: 10px;
+    position: relative;
+    display: inline-block;
+}
+
+.imgdiv {
+    height: 100%;
+    width: auto;
+    align-self: center;
+}
+
+.imgdesc{
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.6);
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    top: 0;
+    left: 0;
+    transition: opacity 0.3s ease 0.2s;
+}
+
+.imgdesc p{
+    color: #e9cdde;
+    font-size: 18px;
+    text-align: center;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 0 10px; 
+}
+
+.itemdiv:hover .imgdesc {
+    transition-delay: 0.2s; 
+    opacity: 1;
 }
