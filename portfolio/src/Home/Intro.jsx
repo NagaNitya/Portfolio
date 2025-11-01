@@ -13,7 +13,7 @@ const Intro = () => {
         <div>
             <div className='intro_div'>
                 <h2 data-aos="fade-up">Hello everyone, and welcome to my personal portfolio!</h2><br /><br />
-                <img src={displaypic} alt="display picture" />
+                <img src={displaypic} alt="display picture" data-aos="fade-up" data-aos-delay="200"/>
             </div>
             <div className='body_div'>
                 <p className='more_info_p' data-aos="fade-up" data-aos-delay="200">My name is Nitya Penumerthy, I am currently pursuing my Bachelor of Technology, majoring in Computer Science. I enjoy coding and creating things with code, which has led to my creating this portfolio to showcase all the projects I have done, and am currently working on.</p>
