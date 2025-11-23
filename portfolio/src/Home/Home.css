@@ -1,38 +1,42 @@
 .intro_div{
     background-color: #d3e1ee;
-    text-align: center;
-    padding: 100px;
-    height: 350px;
-    border-bottom-right-radius: 50%;
-    border-bottom-left-radius: 50%;
-    border-bottom: solid 40px #e9cdde;
-    overflow-x: hidden;
-}
-
-.intro_div > p {
-    width: 500px;
+    height: 150vh;
+    width: 100%;
     align-items: center;
-    margin: auto;
+    display: block;
+    font-size: large;
+    padding-top: 5vh;
 }
 
-.intro_div > img {
-    border-radius: 50%;
-    height: 200px;
+
+.scroll_box_1, .scroll_box_2{
+  margin: auto;
+  display: block;
+  width: 70%;
+  height: 100vh;
+  text-align: center;
 }
 
-.body_div{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-top: 50px;
+.displaypic{
+  margin-top: 5vh;
+  width: 50vh;
+  height: 50vh;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 5vh;
+  align-self: center;
+
 }
 
-.more_info_p{
-    margin-top: 50px;
-    text-align: center;
-    width: 50%;
+.scroll_box_2{
+  transition: transform 0.5s ease;
+}
+.scroll_box_2.show{
+  transform: translateY(0px);
 }
 
-.main_back{
-    background-color: #f3f6f4;
-}
+.scroll_box_2.hide{
+  transform: translateY(20px);
+} 
+
+
