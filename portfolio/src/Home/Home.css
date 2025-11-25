@@ -1,20 +1,27 @@
 .intro_div{
     background-color: #d3e1ee;
-    height: 150vh;
+    height: 100vh;
     width: 100%;
     align-items: center;
     display: block;
     font-size: large;
     padding-top: 5vh;
+    overflow-y: scroll;
+    scroll-behavior: smooth; 
+    scroll-snap-type: y mandatory;
+    scrollbar-width: none;   /* Firefox */
+    -ms-overflow-style: none; 
 }
-
 
 .scroll_box_1, .scroll_box_2{
   margin: auto;
-  display: block;
   width: 70%;
   height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
   text-align: center;
+  scroll-snap-align: start;
 }
 
 .displaypic{
@@ -25,18 +32,25 @@
   object-fit: cover;
   margin-bottom: 5vh;
   align-self: center;
-
 }
 
 .scroll_box_2{
-  transition: transform 0.5s ease;
+  animation: appear ;
+  animation-timeline: view();
+  animation-duration: 1s;
+  font-size: larger;
+  
 }
-.scroll_box_2.show{
-  transform: translateY(0px);
+
+@keyframes appear{
+  from {
+    opacity: 0;
+    scale: 0.5
+    
+  }
+  to {
+    opacity: 1;
+   scale: 1;
+    
+  }
 }
-
-.scroll_box_2.hide{
-  transform: translateY(20px);
-} 
-
-

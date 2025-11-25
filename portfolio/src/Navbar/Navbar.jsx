@@ -38,15 +38,18 @@ const Navbar = () => {
   };
 
     return (
-
-    
-            <div className='main_nav' >
+        <div>
+            <div className='main_nav'>
                 <a href="#top" onClick={scrollToTop} className='nav_link_head'><h2>Nitya Penumerthy</h2></a>           
                 <a href="#education" className='nav_link'>Projects</a>
                 <Link to={'/about'} className='nav_link'>About</Link>
                 <Link to={'/gallery'} className='nav_link'>Gallery</Link>
             </div>
-  
+            <p>under renovation! please wait!</p>
+
+        </div>
+        
+        
     )
 }
 
